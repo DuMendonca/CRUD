@@ -1,0 +1,47 @@
+
+
+#cabecalho{
+	height: 10%;
+	width: 100%;
+	background-color: #ff9900;
+}
+
+	#menuPrincipal li, #menuPrincipal a{
+		list-style: none;
+		text-decoration: none;
+	}
+
+	#img1{
+	  height:40px;
+		width:40px;
+	}
+	#menuPrincipal{
+		font-size: 17px;
+	}
+	#menuPrincipal a{
+		padding: 0px 20px;
+		height: 45px;
+		float: right;
+		line-height: 45px;
+		color: black;
+		border-radius: 5px;
+	}
+	#menuPrincipal li{
+		display: inline-block;
+		padding-top: 5px;
+	}
+
+	#menuPrincipal li:hover > a{
+		background-color:  #00ccff;
+	}
+	#logout{
+		padding: 0px 20px;
+		height: 45px;
+		float: right;
+		color: white;
+		text-align:center;
+	}
+	#nomeMenu{
+		font-family:monospace;
+		font-size:20px;
+	}

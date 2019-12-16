@@ -1,0 +1,141 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+div{
+  height: 50px;
+  width: 50px;
+
+}
+h1{
+	text-align: center;
+	font-family: monospace, sans-serif;
+	font-size: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#divRegistro{
+	margin: 0 auto;
+	width: 50%;
+}
+#legRegistro{
+	text-align: center;
+	font-family: monospace, sans-serif;
+	font-size: 20px;
+
+}
+
+#registroCliente{
+	text-align: center
+
+}
+#limpar{
+  margin:10px 10px;
+  background: #f50e0e;
+  background-image: -webkit-linear-gradient(top, #f50e0e, #ff5252);
+  background-image: -moz-linear-gradient(top, #f50e0e, #ff5252);
+  background-image: -ms-linear-gradient(top, #f50e0e, #ff5252);
+  background-image: -o-linear-gradient(top, #f50e0e, #ff5252);
+  background-image: linear-gradient(to bottom, #f50e0e, #ff5252);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  text-shadow: 1px 1px 3px #050405;
+  -webkit-box-shadow: 0px 1px 5px #000000;
+  -moz-box-shadow: 0px 1px 5px #000000;
+  box-shadow: 0px 1px 5px #000000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+#login{
+	margin:10px 10px;
+ background: #11f505;
+  background-image: -webkit-linear-gradient(top, #11f505, #80fa3a);
+  background-image: -moz-linear-gradient(top, #11f505, #80fa3a);
+  background-image: -ms-linear-gradient(top, #11f505, #80fa3a);
+  background-image: -o-linear-gradient(top, #11f505, #80fa3a);
+  background-image: linear-gradient(to bottom, #11f505, #80fa3a);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  text-shadow: 1px 1px 3px #050405;
+  -webkit-box-shadow: 0px 1px 5px #000000;
+  -moz-box-shadow: 0px 1px 5px #000000;
+  box-shadow: 0px 1px 5px #000000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.registro{
+	text-align: center;
+	font-family: monospace, sans-serif;
+	font-size: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color:orange;
+}
+/*CONSULTA*/
+#divConsulta{
+		margin: 320px auto 50px auto;
+		width: 90%;
+		height: 80%;
+}
+tbody{
+	padding:10%;
+}
+#legConsulta{
+	text-align: center;
+	font-family: monospace, sans-serif;
+	font-size: 20px;
+}
+#consultaCliente{
+    height:50%;
+}
+#labelConsultaNome, table{
+		margin-left: 10px;
+	}
+#labelConsultaNome{
+		margin-right: 10px;
+	}
+table{
+		width: 97%;
+		border-collapse: collapse;
+		margin-top: 2%;
+	}
+th {
+			background-color:#ff9900;
+			font-size: 12px;
+			color:black;
+			padding-left:4px;
+			padding-right:4px;
+			border-bottom:solid 1px #7c92ad;
+			height:26px;
+			padding-right:5px;
+		}
+		tr:nth-child(odd){
+			background-color:#b1bece;
+		}
+		tr:nth-child(even){
+			background-color:#66b3ff;
+		}
+	tr, td{
+			height:26px;
+			padding-left:4px;
+			padding-right:2px;
+			padding-bottom:5px;
+			font-family: monospace, serif;
+			text-align: center;
+			font-size:13px;
+			white-space:nowrap;
+			border-bottom:solid 1px #7c92ad;
+		}
